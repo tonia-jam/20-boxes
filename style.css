@@ -1,0 +1,23 @@
+ul {
+    width: 1000px;
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 3px solid #2a97fee5
+}
+li {  
+    width: 70px;
+    height: 70px;
+    background-color: #2a97fee5;
+    margin: none;
+    padding: none;  
+}
+ul:last-of-type {
+    background: coral;
+}
+ul:last-of-type > li {
+    background: purple;
+}
